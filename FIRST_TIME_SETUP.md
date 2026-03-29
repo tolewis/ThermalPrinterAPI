@@ -218,6 +218,8 @@ Never change multiple variables at once if the goal is calibration.
   - behaves like a rebadged Samsung SCX-4623f
   - PostScript is not installed; do not default to generic PS
   - initial “one-page” text smoke test overflowed to 2 pages with 16 lines on page 2, so future first tests should use conservative margins / deliberate page geometry
+- validated safe-area baseline (approved 2026-03-29): top 0.50in, left/right 0.625in, bottom 0.75in
+- approved baseline: v3 safe-area smoke test; treat these as the default Dell margins unless a later test disproves them
 
 ---
 

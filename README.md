@@ -82,3 +82,16 @@ What worked in practice:
 - Card 1: weekly schedule with day-by-day blocks + short rules footer
 - Card 2: directional reminder card with 6-8 hard one-liners
 - Final successful pattern: v2 fixed composition, v3 slightly shrank the approved layout to fit the stock cleanly
+
+
+## Validated Dell safe-area baseline (2026-03-29)
+
+Confirmed by physical measurement + smoke-test iteration:
+- top non-printable area: **0.50 in**
+- left/right non-printable area: **0.625 in**
+- bottom non-printable area: **0.75 in**
+
+Result:
+- v3 safe-area smoke test approved by Tim as the default baseline
+- future Dell one-page jobs should be laid out to this printable area first
+- use image/PDF-style page rendering for first-pass reliability rather than raw text pagination
