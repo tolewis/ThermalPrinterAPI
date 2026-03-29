@@ -19,6 +19,19 @@ The SP410's TSPL TEXT commands don't work (internal fonts missing in this firmwa
 - `DIRECTION 1` for right-side up
 - Transfer: `dd bs=64` to `/dev/usb/lp0`
 
+
+## First-Time Setup Workflow
+For first installs, printer identification, driver/transport selection, and initial calibration, use:
+
+- `FIRST_TIME_SETUP.md`
+
+That runbook standardizes:
+- printer identification
+- transport selection
+- first-install queue setup
+- mandatory smoke-test page workflow
+- calibration feedback loop
+
 ## Supported Printers
 - **SP410** — 4x6 thermal label path via the Raspberry Pi USB print server
 - **Dell 1135n** — plain-paper network printer path via the server CUPS queue `Dell1135n_unhook`
